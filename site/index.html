@@ -1,12 +1,221 @@
 <!DOCTYPE html>
+
 <html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intitial-scale=1">
 <head>
-	<title>Welcome to Khoji</title>
+	<title>Welcome to responsive page</title>
+
+<style>
+
+	* {
+		box-sizing: border-box;
+	}
+
+	h1 {
+		color: darkgray;
+		font-size: 40px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	
+	p {
+		font-family: Helvetica;
+		background-color: darkred;
+		width: 90%;
+		height: 150px;
+		border: 1px solid black;
+		margin-right: auto;
+		margin-left: auto;
+		color: white;
+	}
+
+	.row {
+		width: 100%;
+	}
+
+/*******Large device*********/
+@media (min-width: 1200px){
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		float: left;
+		border: 1px solid green;
+	}
+
+	.col-lg-1 {
+		width: 8.33%;
+	}
+
+	.col-lg-2 {
+		width: 16.66%;
+	}
+
+	.col-lg-3 {
+		width: 25%;
+	}
+	.col-lg-4 {
+		width: 33.33%;
+	}
+
+	.col-lg-5 {
+		width: 41.66%;
+	}
+
+	.col-lg-6 {
+		width: 50%;
+	}
+	.col-lg-7 {
+		width: 58.33%;
+	}
+
+	.col-lg-8 {
+		width: 66.66%;
+	}
+
+	.col-lg-9 {
+		width: 75%;
+	}
+	.col-lg-10 {
+		width: 83.33%;
+	}
+
+	.col-lg-11 {
+		width: 91.66%;
+	}
+
+	.col-lg-12 {
+		width: 100%;
+	}
+
+}
+
+/*******medium device********/
+
+@media (min-width: 950px) and (max-width: 1199px){
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+		float: left;
+		border: 1px solid green;
+	}
+
+	.col-md-1 {
+		width: 8.33%;
+	}
+
+	.col-md-2 {
+		width: 16.66%;
+	}
+
+	.col-md-3 {
+		width: 25%;
+	}
+	.col-md-4 {
+		width: 33.33%;
+	}
+
+	.col-md-5 {
+		width: 41.66%;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-7 {
+		width: 58.33%;
+	}
+
+	.col-md-8 {
+		width: 66.66%;
+	}
+
+	.col-md-9 {
+		width: 75%;
+	}
+	.col-md-10 {
+		width: 83.33%;
+	}
+
+	.col-md-11 {
+		width: 91.66%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/*******small device*********/
+
+
+</style>
 </head>
 <body>
-	<h1 style="color: darkgray; font-size: 60px; text-align: center;">Digital identity of a busienss</h1>
-	<p style="margin: 0 100px 0 100px; font-size: 1.5em;">This is the place where service provider can create his business identity</p>
-	<p style="color: red; font-size: 20px; text-align: left;">Apart from that business can create ther service catalogue and share update with their customers on every step of the service to provide complete visibility</p>
+    <h1>Responsive Layout Design</h1>
+    <div class="col-lg-3 col-md-6"><p>item 1</p></div>
+    <div class="col-lg-3 col-md-6"><p>item 2 Wow reposive is good</p></div>
+    <div class="col-lg-3 col-md-6"><p>item 3</p></div>
+    <div class="col-lg-3 col-md-6"><p>item 4</p></div>
+    <div class="col-lg-3 col-md-6"><p>item 5 this is cool</p></div>
+    <div class="col-lg-3 col-md-6"><p>item 6</p></div>
+    <div class="col-lg-3 col-md-6"><p>item 7</p></div>
+    <div class="col-lg-3 col-md-6"><p>item 8</p></div>
+
+
+
+<!---	<div>
+		<h1 id="top">This is demo for section linking</h1>
+ 	<section>
+ 		<ul>
+ 			<li><a href="#section1">#Section1</a></li>
+ 			<li><a href="#section2">#Section2</a></li>
+ 			<li><a href="#section3">#Section3</a></li>
+ 			<li><a href="#section4">#Section4</a></li>
+ 			<li><a href="#section5">#Section5</a></li>
+ 			<li><a href="#section6">#Section6</a></li>
+ 		</ul>
+ 	</section>
+
+ 	<section id="section1">
+ 		<h3>Section 1</h3>
+ 		<p>Muir started skiing at Aberdeen Snowsports Centre at the age of three.[2] She began with alpine skiing, before switching to freestyle skiing.[3] At the 2018 British Championships, she won the big air, halfpipe and slopestyle events.[4] In 2019, she won the first Europa Cup Slopestyle event in which she competed,[4][5] and won a medal in another Europa Cup event that season.[6] She came second in the 2019 British Championships big air event.[6] At the 2019 FIS Junior World Freestyle Skiing Championships, Muir came second and third in two of the events.The front surface of the holotype premaxilla is inclined hindward and upwards at an angle of about 50 degrees relative to the lower margin, an angle comparable to the megalosaurid Torvosaurus, but lower than in Dubreuillosaurus and Eustreptospondylus. Though the outer side surface of the premaxilla is poorly preserved, randomly distributed nutrient foramina (openings for blood-vessels) are visible towards its front. The bone surface at the middle front of the premaxilla is flat and marked by hind and upwards oriented striations where it would have connected with the other premaxilla. A foramen (opening) is present at the front middle surface, right below the front end of the bony nostril. Three prominent processes (outgrowths) extend backwards from the upper part of the premaxilla. The lowest of these is the palatal process, which was prominent in Duriavenator compared to other basal (early diverging) tetanurans, and the two processes above together form a subnarial (below the nostril) process. A foramen opens hind-wards between the palatal and subnarial processes, with another foramen opening just behind it. One of these foramina probably opened into a canal for the nerve or blood vessel that also continued into the foramen on the surface of the maxilla that connected with the premaxilla, a feature also seen in Megalosaurus.The front surface of the holotype premaxilla is inclined hindward and upwards at an angle of about 50 degrees relative to the lower margin, an angle comparable to the megalosaurid Torvosaurus, but lower than in Dubreuillosaurus and Eustreptospondylus. Though the outer side surface of the premaxilla is poorly preserved, randomly distributed nutrient foramina (openings for blood-vessels) are visible towards its front. The bone surface at the middle front of the premaxilla is flat and marked by hind and upwards oriented striations where it would have connected with the other premaxilla. A foramen (opening) is present at the front middle surface, right below the front end of the bony nostril. Three prominent processes (outgrowths) extend backwards from the upper part of the premaxilla. The lowest of these is the palatal process, which was prominent in Duriavenator compared to other basal (early diverging) tetanurans, and the two processes above together form a subnarial (below the nostril) process. A foramen opens hind-wards between the palatal and subnarial processes, with another foramen opening just behind it. One of these foramina probably opened into a canal for the nerve or blood vessel that also continued into the foramen on the surface of the maxilla that connected with the premaxilla, a feature also seen in Megalosaurus.
+</p>
+ 	</section>
+
+ 	<section id="section2">
+ 		<h3>Section 2</h3>
+ 		<p>
+ 			Duriavenator is a genus of theropod dinosaur that lived in what is now England during the Middle Jurassic, about 168 million years ago. In 1882, upper and lower jaw bones of a dinosaur were collected near Sherborne in Dorset, and Richard Owen considered the fossils to belong to the species Megalosaurus bucklandii, the first named non-bird dinosaur. By 1964, the specimen was recognised as belonging to a different species, and in 1974 it was moved to a new species of Megalosaurus, M. hesperis; the specific name means "the West" or "western". Later researchers questioned whether the species belonged in Megalosaurus, in which many fragmentary theropods from around the world had historically been placed. After examining the taxonomic issues surrounding Megalosaurus, Roger B. J. Benson moved M. hesperis to its own genus in 2008, Duriavenator; this name means "Dorset hunter".The front surface of the holotype premaxilla is inclined hindward and upwards at an angle of about 50 degrees relative to the lower margin, an angle comparable to the megalosaurid Torvosaurus, but lower than in Dubreuillosaurus and Eustreptospondylus. Though the outer side surface of the premaxilla is poorly preserved, randomly distributed nutrient foramina (openings for blood-vessels) are visible towards its front. The bone surface at the middle front of the premaxilla is flat and marked by hind and upwards oriented striations where it would have connected with the other premaxilla. A foramen (opening) is present at the front middle surface, right below the front end of the bony nostril. Three prominent processes (outgrowths) extend backwards from the upper part of the premaxilla. The lowest of these is the palatal process, which was prominent in Duriavenator compared to other basal (early diverging) tetanurans, and the two processes above together form a subnarial (below the nostril) process. A foramen opens hind-wards between the palatal and subnarial processes, with another foramen opening just behind it. One of these foramina probably opened into a canal for the nerve or blood vessel that also continued into the foramen on the surface of the maxilla that connected with the premaxilla, a feature also seen in Megalosaurus.The front surface of the holotype premaxilla is inclined hindward and upwards at an angle of about 50 degrees relative to the lower margin, an angle comparable to the megalosaurid Torvosaurus, but lower than in Dubreuillosaurus and Eustreptospondylus. Though the outer side surface of the premaxilla is poorly preserved, randomly distributed nutrient foramina (openings for blood-vessels) are visible towards its front. The bone surface at the middle front of the premaxilla is flat and marked by hind and upwards oriented striations where it would have connected with the other premaxilla. A foramen (opening) is present at the front middle surface, right below the front end of the bony nostril. Three prominent processes (outgrowths) extend backwards from the upper part of the premaxilla. The lowest of these is the palatal process, which was prominent in Duriavenator compared to other basal (early diverging) tetanurans, and the two processes above together form a subnarial (below the nostril) process. A foramen opens hind-wards between the palatal and subnarial processes, with another foramen opening just behind it. One of these foramina probably opened into a canal for the nerve or blood vessel that also continued into the foramen on the surface of the maxilla that connected with the premaxilla, a feature also seen in Megalosaurus.
+ 		</p>
+ 	</section>
+ 	    
+ 	<section id="section3">
+ 		<h3>Section 3</h3>
+ 	     <p>
+ 	     	At the 2020 Winter Youth Olympics, Muir came second in the big air event,[7] and fourth in the slopestyle event.[8] She was Team GB's flagbearer at the closing ceremony of the Games.[9] Muir competed in the FIS Freestyle Ski and Snowboarding World Championships 2021, where she placed sixth in women's ski slopestyle.[10] She came second in the slopestyle event at the 2020–21 FIS Freestyle Ski World Cup competition in Aspen, Colorado, US.[7][11] It was her fourth senior event.[3]The front surface of the holotype premaxilla is inclined hindward and upwards at an angle of about 50 degrees relative to the lower margin, an angle comparable to the megalosaurid Torvosaurus, but lower than in Dubreuillosaurus and Eustreptospondylus. Though the outer side surface of the premaxilla is poorly preserved, randomly distributed nutrient foramina (openings for blood-vessels) are visible towards its front. The bone surface at the middle front of the premaxilla is flat and marked by hind and upwards oriented striations where it would have connected with the other premaxilla. A foramen (opening) is present at the front middle surface, right below the front end of the bony nostril. Three prominent processes (outgrowths) extend backwards from the upper part of the premaxilla. The lowest of these is the palatal process, which was prominent in Duriavenator compared to other basal (early diverging) tetanurans, and the two processes above together form a subnarial (below the nostril) process. A foramen opens hind-wards between the palatal and subnarial processes, with another foramen opening just behind it. One of these foramina probably opened into a canal for the nerve or blood vessel that also continued into the foramen on the surface of the maxilla that connected with the premaxilla, a feature also seen in Megalosaurus.
+ 	     </p>
+ 		
+ 	</section>
+
+ 	<section id="section4">
+ 		<h3>Section 4</h3>
+ 		<p>
+ 			Muir competed in the big air and slopestyle events at the 2022 Winter Olympics.[7] She was the youngest Briton at the Games.[12] She finished seventh in the qualification round of the big air event,[11][13] and fifth overall in the final.[14] After the first run in the final, Muir had been in third position,[15] and she was the youngest finalist in the event.[16] Muir came sixth in the slopestyle qualifying round,[17] and eighth in the final, one place ahead of fellow Briton Katie Summerhayes.[18]The front surface of the holotype premaxilla is inclined hindward and upwards at an angle of about 50 degrees relative to the lower margin, an angle comparable to the megalosaurid Torvosaurus, but lower than in Dubreuillosaurus and Eustreptospondylus. Though the outer side surface of the premaxilla is poorly preserved, randomly distributed nutrient foramina (openings for blood-vessels) are visible towards its front. The bone surface at the middle front of the premaxilla is flat and marked by hind and upwards oriented striations where it would have connected with the other premaxilla. A foramen (opening) is present at the front middle surface, right below the front end of the bony nostril. Three prominent processes (outgrowths) extend backwards from the upper part of the premaxilla. The lowest of these is the palatal process, which was prominent in Duriavenator compared to other basal (early diverging) tetanurans, and the two processes above together form a subnarial (below the nostril) process. A foramen opens hind-wards between the palatal and subnarial processes, with another foramen opening just behind it. One of these foramina probably opened into a canal for the nerve or blood vessel that also continued into the foramen on the surface of the maxilla that connected with the premaxilla, a feature also seen in Megalosaurus.The front surface of the holotype premaxilla is inclined hindward and upwards at an angle of about 50 degrees relative to the lower margin, an angle comparable to the megalosaurid Torvosaurus, but lower than in Dubreuillosaurus and Eustreptospondylus. Though the outer side surface of the premaxilla is poorly preserved, randomly distributed nutrient foramina (openings for blood-vessels) are visible towards its front. The bone surface at the middle front of the premaxilla is flat and marked by hind and upwards oriented striations where it would have connected with the other premaxilla. A foramen (opening) is present at the front middle surface, right below the front end of the bony nostril. Three prominent processes (outgrowths) extend backwards from the upper part of the premaxilla. The lowest of these is the palatal process, which was prominent in Duriavenator compared to other basal (early diverging) tetanurans, and the two processes above together form a subnarial (below the nostril) process. A foramen opens hind-wards between the palatal and subnarial processes, with another foramen opening just behind it. One of these foramina probably opened into a canal for the nerve or blood vessel that also continued into the foramen on the surface of the maxilla that connected with the premaxilla, a feature also seen in Megalosaurus.
+ 		</p>
+ 		
+ 	</section>
+
+ 	<section id="section5">
+ 		<h3>Section 5</h3>
+ 		<p>
+ 			Duriavenator is a genus of theropod dinosaur that lived in what is now England during the Middle Jurassic, about 168 million years ago. In 1882, upper and lower jaw bones of a dinosaur were collected near Sherborne in Dorset, and Richard Owen considered the fossils to belong to the species Megalosaurus bucklandii, the first named non-bird dinosaur. By 1964, the specimen was recognised as belonging to a different species, and in 1974 it was moved to a new species of Megalosaurus, M. hesperis; the specific name means "the West" or "western". Later researchers questioned whether the species belonged in Megalosaurus, in which many fragmentary theropods from around the world had historically been placed. After examining the taxonomic issues surrounding Megalosaurus, Roger B. J. Benson moved M. hesperis to its own genus in 2008, Duriavenator; this name means "Dorset hunter".The front surface of the holotype premaxilla is inclined hindward and upwards at an angle of about 50 degrees relative to the lower margin, an angle comparable to the megalosaurid Torvosaurus, but lower than in Dubreuillosaurus and Eustreptospondylus. Though the outer side surface of the premaxilla is poorly preserved, randomly distributed nutrient foramina (openings for blood-vessels) are visible towards its front. The bone surface at the middle front of the premaxilla is flat and marked by hind and upwards oriented striations where it would have connected with the other premaxilla. A foramen (opening) is present at the front middle surface, right below the front end of the bony nostril. Three prominent processes (outgrowths) extend backwards from the upper part of the premaxilla. The lowest of these is the palatal process, which was prominent in Duriavenator compared to other basal (early diverging) tetanurans, and the two processes above together form a subnarial (below the nostril) process. A foramen opens hind-wards between the palatal and subnarial processes, with another foramen opening just behind it. One of these foramina probably opened into a canal for the nerve or blood vessel that also continued into the foramen on the surface of the maxilla that connected with the premaxilla, a feature also seen in Megalosaurus.The front surface of the holotype premaxilla is inclined hindward and upwards at an angle of about 50 degrees relative to the lower margin, an angle comparable to the megalosaurid Torvosaurus, but lower than in Dubreuillosaurus and Eustreptospondylus. Though the outer side surface of the premaxilla is poorly preserved, randomly distributed nutrient foramina (openings for blood-vessels) are visible towards its front. The bone surface at the middle front of the premaxilla is flat and marked by hind and upwards oriented striations where it would have connected with the other premaxilla. A foramen (opening) is present at the front middle surface, right below the front end of the bony nostril. Three prominent processes (outgrowths) extend backwards from the upper part of the premaxilla. The lowest of these is the palatal process, which was prominent in Duriavenator compared to other basal (early diverging) tetanurans, and the two processes above together form a subnarial (below the nostril) process. A foramen opens hind-wards between the palatal and subnarial processes, with another foramen opening just behind it. One of these foramina probably opened into a canal for the nerve or blood vessel that also continued into the foramen on the surface of the maxilla that connected with the premaxilla, a feature also seen in Megalosaurus.
+ 		</p>
+ 	</section>
+	</div>
+ 	<div>
+ 		<h2><a name="section6">Section 6</a></h2>
+ 		<p>
+ 			Back to the top: <a href="#top">Back to top</a>
+ 		</p>
+ 	</div> --->
+
 
 	<footer>
 		<hr>
